@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INVOICE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @page { margin:0; }
+        body{
+            font-family: 'Raleway', sans-serif;
+        }
+        table.header{
+            width: 97%;
+            border-collapse: collapse;
+        }
+        h1,h3,p{
+            margin: 0;
+        }
+        .logo{
+            padding-left: 50px;
+        }
+        .logo h1{
+            font-size: 40px;
+            color: #e63f39;
+            font-weight: 100;
+        }
+        .info{
+            height: 300px;
+            color: #ffffff;
+            padding-left: 30px;
+            vertical-align: top;
+            border-left:1px solid #e63f39;
+            background-color: #e63f39;
+        }
+        .info .site{
+            margin-top: 15px;
+            margin-bottom: 75px;
+        }
+        .item{
+            width: 220px;
+            height: 30px;
+            padding-left: 30px;
+            background-color: #f3f4f4;
+        }
+        .item h3{
+            margin: 0;
+            color: #e63f39;
+        }
+        table.list{
+            width: 97%;
+            margin-top: 50px;
+            padding-left: 7%;
+            border-collapse: collapse;
+        }
+        table.list th,
+        table.list td{
+            padding: 8px 5px;
+            text-align: left;
+            vertical-align: center;
+            border-bottom: 1px solid #f3f4f4;
+        }
+        table.list td:nth-child(odd){
+            background-color: #f3f4f4;
+        }
+        table.total{
+            width: 97%;
+            padding-left: 7%;
+            border-collapse: collapse;
+        }
+        table.total td{
+            padding:8px 5px;
+        }
+        .bg{
+            color:#ffffff;
+            background-color: #e63f39;
+        }
+    </style>
+</head>
+<body>
+    <table class="header">
+        <tr>
+            <td class="logo" colspan="2">                
+                <h1>Brand<small>Logo</small></h1>
+                <p>It’s your brand</p>
+            </td>
+            <td class="info" rowspan="3">
+                <p class="site">www.example.com</p>
+                <h3>Bill No:<br> <small> Company Name Here</small></h3>
+                <p>Due to: <br>
+                    Well Anderson <br>
+                    Street Address Here 1234 <br>
+                    Mobile: +55 555 5555
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td class="item">
+                <h3>INVOICE</h3>
+                <p>#00/00/00</p>
+            </td>
+            <td class="item">
+                <h3>Publish by:</h3>
+                <p>Company Name Here</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="item">
+                <h3>$1.234,50</h3>
+                <p>Lorem ipsum dolor data example text are goes example gose</p>
+            </td>
+            <td class="item">
+                <h3>Lorem Example. Sit</h3>
+                <p>(+123) 456 7890 <br> info@example.com</p>
+            </td>
+        </tr>
+    </table>
+    <table class="list">
+        <thead>
+            <tr>
+                <th>Services</th>
+                <th>Descriptions</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum dolor <br> data example text are goes</td>
+                <td>2</td>
+                <td>$100.00</td>
+                <td>$400.00</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum dolor <br> data example text are goes</td>
+                <td>2</td>
+                <td>$100.00</td>
+                <td>$400.00</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum dolor <br> data example text are goes</td>
+                <td>2</td>
+                <td>$100.00</td>
+                <td>$400.00</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum dolor <br> data example text are goes</td>
+                <td>2</td>
+                <td>$100.00</td>
+                <td>$400.00</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum dolor <br> data example text are goes</td>
+                <td>2</td>
+                <td>$100.00</td>
+                <td>$400.00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="total">
+        <tr>
+            <td style="width:480px" rowspan="4">
+                <h3>Terms & Conditions:</h3>
+                <p style="width: 60%;">Lorem ipsum dolor site amet agam facer, modo data example details of your payment text.</p>     
+            </td>
+            <td >Subtotal</td>
+            <td>$4000.00</td>
+        </tr>
+        <tr>
+            <td>VAT/Tax 15%</td>
+            <td>$500.00</td>
+        </tr>
+        <tr>
+            <td>Discount</td>
+            <td>$500.00</td>
+        </tr>
+        <tr>
+            <td>Total Due</td>
+            <td class="bg">$55500.00</td>
+        </tr>
+    </table>
+</body>
+</html>

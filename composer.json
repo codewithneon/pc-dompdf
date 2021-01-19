@@ -1,0 +1,15 @@
+{
+    "name": "codewithneon/pc-dompdf",
+    "description": "Simple dompdf generator",
+    "type": "project",
+    "authors": [
+        {
+            "name": "codewithneon",
+            "email": "codewithneon@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "dompdf/dompdf": "^1.0"
+    }
+}
