@@ -7,7 +7,7 @@
 
 to download Files
 ~~~
-git remote add origin https://github.com/codewithneon/pc-dompdf.git
+git clone https://github.com/codewithneon/php-dompdf-composer.git
 ~~~
 to install all dependency 
 ~~~
